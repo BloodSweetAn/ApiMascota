@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Data
@@ -11,9 +12,9 @@ import java.util.Date;
 @NoArgsConstructor
 
 public class MascotaDTO {
-    private Long IdMascota;
-    private String Direccion;
-    private Date FechaDenacimiento;
-    private String Tamanio;
-    private String Status;
+    private Long idMascota;
+    private String direccion;
+    private LocalDate fechaDenacimiento;
+    private String tamanio;
+    private String status;
 }
